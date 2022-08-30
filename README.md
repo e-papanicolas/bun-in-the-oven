@@ -2,7 +2,7 @@
 
 **Trying out the [oven-sh/bun](https://github.com/oven-sh/bun) javascript runtime!**
 
-### Notes
+## Notes
 
 - `bun install` to install from `package.json`
 - `bun add <pkg-name>` or `bun remove <pkg-name>`
@@ -28,7 +28,7 @@
 ```
 
 - `bun install` can be configured via `bunfig.toml`, environment variables, and CLI flags, but configuring with `bunfig.toml` is optional
-- bun run automatically loads environment variables from .env into the shell/task. .env files are loaded with the same priority as the rest of bun, so that means:
+- `bun run` automatically loads environment variables from `.env` into the shell/task. `.env` files are loaded with the same priority as the rest of bun, so that means:
 
   > 1.  `.env.local` is first
   > 2.  if (`$NODE_ENV` === `"production"`) `.env.production` else `.env.development`
