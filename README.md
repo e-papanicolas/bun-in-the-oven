@@ -1,8 +1,8 @@
 # bun-in-the-oven
 
-Trying out the oven-sh/bun javascript runtime!
+**Trying out the [oven-sh/bun](https://github.com/oven-sh/bun) javascript runtime!**
 
-### commands
+### Getting started
 
 - `bun install` to install from `package.json`
 - `bun add <pkg-name>` or `bun remove <pkg-name>`
