@@ -2,7 +2,7 @@
 
 **Trying out the [oven-sh/bun](https://github.com/oven-sh/bun) javascript runtime!**
 
-<img src="./bun.help.png" width="500" height="200">
+<img src="./public/images/bun.help.png" width="500" height="200">
 
 ## Notes
 
