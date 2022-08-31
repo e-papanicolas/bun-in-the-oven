@@ -1,8 +1,11 @@
 {
   "name": "bun-in-the-oven",
   "module": "index.ts",
-  "type": "module",
   "devDependencies": {
-    "bun-types": "^0.1.0"
-  }
+    "bun-types": "^0.1.10"
+  },
+  "scripts": {
+    "clean": "rm -rf dist out node_modules",
+  },
+  "type": "module"
 }
