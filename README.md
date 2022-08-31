@@ -16,6 +16,7 @@
   }
 ```
 
+- `bun start <script-name>` to run the script
 - `bun create react ./app` to Create React App
 - `bun dev` to start dev server
 - `bun add -d bun-types` to get TypeScript working with the global API, add `bun-types` to your project
@@ -50,3 +51,5 @@
   > At the end, it runs `bun install` to install `bun-types`
 
 - `bun completions` installs completions for zsh, runs on every `bun ungrade`
+
+- to deploy: best options `Railway` or `fly.io`

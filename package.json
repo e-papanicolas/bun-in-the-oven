@@ -5,7 +5,7 @@
     "bun-types": "^0.1.10"
   },
   "scripts": {
-    "clean": "rm -rf dist out node_modules",
+    "clean": "rm -rf dist out node_modules"
   },
   "type": "module"
 }
